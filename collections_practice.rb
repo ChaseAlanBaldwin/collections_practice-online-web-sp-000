@@ -38,6 +38,7 @@ def kesha_maker(array)
     chars[2] = "$"
     i = chars.join()
     newArray = []
-    newArray << i 
+    newArray << i
   end
+  newArray
 end
