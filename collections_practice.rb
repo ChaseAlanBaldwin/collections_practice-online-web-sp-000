@@ -51,7 +51,7 @@ def find_a(array)
       wordsWithA << x
     end
   end
-  wordsWith
+  wordsWithA
 end
 
 def sum_array(array)
