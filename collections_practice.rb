@@ -39,4 +39,6 @@ def kesha_maker(array)
     money = chars.join()
     array[i] = money
   end
+
+  array
 end
