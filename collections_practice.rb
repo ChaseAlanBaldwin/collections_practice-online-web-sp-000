@@ -51,5 +51,5 @@ def find_a(array)
       wordsWithA << string.join()
     end
   end
-  puts wordsWithA
+  wordsWithA
 end
