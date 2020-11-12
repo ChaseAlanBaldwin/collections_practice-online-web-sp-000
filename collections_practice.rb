@@ -37,5 +37,6 @@ def kesha_maker(array)
     chars = i.split(//) # converts string into array for manipulating
     chars[2] = "$"
     i = chars.join()
+    puts i 
   end
 end
