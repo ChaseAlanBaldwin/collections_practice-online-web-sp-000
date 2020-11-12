@@ -66,5 +66,6 @@ def add_s(array)
       puts "oops"
     else
       y = y + 's'
+    end
   end
 end
