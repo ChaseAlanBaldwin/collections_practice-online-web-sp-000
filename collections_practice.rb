@@ -34,7 +34,7 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-    chars = array[i].split(//) # converts string into array for manipulating
+    chars = i.split(//) # converts string into array for manipulating
     chars[2] = "$"
     i = chars.join()
   end
