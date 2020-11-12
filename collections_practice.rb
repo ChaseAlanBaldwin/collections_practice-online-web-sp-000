@@ -33,11 +33,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  newArray = []
   array.each do |i|
     chars = i.split(//) # converts string into array for manipulating
     chars[2] = "$"
     i = chars.join()
-    newArray = []
     newArray << i
   end
   newArray
