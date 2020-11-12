@@ -55,5 +55,6 @@ def find_a(array)
 end
 
 def sum_array(array)
- array.each { |a| sum+=a }
+ total = 0 
+ array.each { |a| total+=a }
 end
