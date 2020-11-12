@@ -48,7 +48,7 @@ def find_a(array)
   array.each do |x|
     string = x.split(//)
     if string[0] = 'A' || 'a'
-      wordsWithA << string
+      wordsWithA << string.join()
     end
   end
   puts wordsWithA
