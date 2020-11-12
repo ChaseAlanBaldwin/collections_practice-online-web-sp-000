@@ -63,7 +63,7 @@ end
 def add_s(array)
   array.each do |y|
     if y === array[1]
-      return y 
+      y = y  
     else
       y << 's'
     end
