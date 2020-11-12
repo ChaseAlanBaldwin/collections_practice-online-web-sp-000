@@ -65,7 +65,7 @@ def add_s(array)
     if y === array[1]
       puts "oops"
     else
-      y = y + 's'
+      y << 's'
     end
   end
 end
