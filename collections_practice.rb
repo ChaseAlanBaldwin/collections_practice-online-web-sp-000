@@ -50,4 +50,5 @@ def find_a(array)
       wordsWithA << x
     end
   end
+  wordsWithA
 end
