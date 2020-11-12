@@ -63,7 +63,7 @@ end
 def add_s(array)
   array.each do |y|
     if y === array[1]
-      oops
+      puts "oops"
     else
       y = y + 's'
   end
