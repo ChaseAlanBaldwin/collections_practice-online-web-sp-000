@@ -44,5 +44,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
+  wordsWithA = []
+  array.each do |x|
+    if x[0] == 'A' || 'a'
+      wordsWithA << x
+    end
+  end
 end
