@@ -59,3 +59,7 @@ def sum_array(array)
  array.each { |a| total+=a }
  total
 end
+
+def add_s(array)
+
+end
